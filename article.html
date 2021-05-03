@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+</head>
+
+<body>
+    <header class=" sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Code</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2">
+            </div>
+            <div class="col">
+                <div class="container-fluid">
+                    <div class="card shadow-lg rounded-3 my-3">
+                        <div class="card-body">
+                            <article class="p-2">
+                                <h1>C++ Basics</h1>
+                                <p class="text-gray"><small>Author : Ravi Verma<br><em>Last Updated<time>10:00</time></em></small></p>
+                                <hr>
+                                <section>
+                                    <img class="img-fluid w-100" src="c++.jpg" alt="C++ Logo">
+                                </section>
+                                <section>
+                                    <h4>
+                                        What is C++?
+                                    </h4>
+                                    <p>
+                                        C++ is a general-purpose programming language created by Bjarne Stroustrup as an
+                                        extension of the C programming language, or "C with Classes".
+                                    </p>
+                                </section>
+                                <section>
+                                    <h4>C++ Data Types</h4>
+                                    <table class="table table-bordered  border-dark">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">S.No.</th>
+                                                <th scope="col">Data Type</th>
+                                                <th scope="col">Size(Bytes)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Char</td>
+                                                <td>1</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>Short</td>
+                                                <td>2</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>Int</td>
+                                                <td>4</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">4</th>
+                                                <td>Float</td>
+                                                <td>4</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">5</th>
+                                                <td>double</td>
+                                                <td>8</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </section>
+                                <section class="p-2">
+                                    <h4>C++ Program</h4>
+                                    <p>Simple C++ Program which prints hello world on screen</p>
+                                    <pre class="border border-dark p-2"><code>#include&lt;iostream.h&gt;
+        
+        using namespace std;
+        int main()
+        {
+            cout<<"Hello world!";
+            return 0;
+        }
+        </code></pre>
+                                </section>
+                            </article>
+                            <div>
+                                <span class="badge rounded-pill bg-primary text-light">C++</span>
+                                <span class="badge rounded-pill bg-primary text-light">Programming</span>
+                                <span class="badge rounded-pill bg-primary text-light">Computer Science</span>
+                                <span class="badge rounded-pill bg-primary text-light">Programming Language</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center text-center">
+                    <div class="m-2">
+                        <nav aria-label="...">
+                            <ul class="pagination">
+                                <li class="page-item disabled">
+                                    <span class="page-link">Previous</span>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item active" aria-current="page">
+                                    <span class="page-link">2</span>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">Next</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
+               
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark py-2">
+        <div class="container my-3">
+            <div class="row">
+                <div class="col-12 col-lg">
+                    <div class="text-light">
+                        <h4>Site Map</h4>
+                    </div>
+                    <div>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a class="text-light text-decoration-none" href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a class="text-light text-decoration-none" href="contact.html">Contact</a>
+                            </li>
+                            <li>
+                                <a class="text-light text-decoration-none" href="about.html">About</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title text-center">
+                                <h4>Get Latest Updates</h4>
+                            </div>
+                            <form>
+                                <div class="mb-3 text-center">
+                                    <input type="email" class="form-control text-center" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="Email">
+                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg">
+                    <figure class="text-center text-light">
+                        <blockquote class="blockquote">
+                            <p>Any fool can write code that a computer can understand. Good programmers write code that
+                                humans can understand.</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                            Martin Fowler
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container-fluid text-light">
+                    <hr>
+                    <div class="text-center">
+                        <span>Copyright &copy; 2021-2021 All Rights Reserved</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+        <!-- Modal -->
+        <div class="modal fade" id="about" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">About</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        This is computer science and technology blog. We post latest information related to computer scince and technology.
+                        Subscribe us for latest information
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</body>
+
+</html>
